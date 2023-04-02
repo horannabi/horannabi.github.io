@@ -1,6 +1,6 @@
 ---
 layout: default
-title: OOP
+title: OOP Common
 parent: Clean Code
 nav_order: 1
 ---
