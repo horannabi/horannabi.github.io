@@ -17,7 +17,7 @@ title: DevNote
 description: DevNote
 #baseurl: "/just-the-docs" # the subpath of your site, e.g. /blog
 url: "https://horannabi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-#repository: just-the-docs/just-the-docs # for github-metadata
+repository: horannabi/horannabi.github.io # for github-metadata
 remote_theme: just-the-docs/just-the-docs
 
 permalink: pretty
