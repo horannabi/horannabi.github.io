@@ -24,4 +24,4 @@ nav_order: 1
 static readonly로 선언된 필드는 해당 선언의 일부로 또는 정적 생성자에서만 할당
 -> 명시적 정적 생성자가 필요하지 않은 경우 런타임 최적화 향상을 위해 정적 생성자를 통하지 않고 선언에서 정적 필드를 초기화
 
-참고: [정적 생성자(C# 프로그래밍 가이드)] (https://learn.microsoft.com/ko-kr/dotnet/csharp/programming-guide/classes-and-structs/static-constructors)
+참고: [정적 생성자(C# 프로그래밍 가이드)](https://learn.microsoft.com/ko-kr/dotnet/csharp/programming-guide/classes-and-structs/static-constructors)
