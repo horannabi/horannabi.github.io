@@ -6,7 +6,7 @@ grand_parent: Dev Tools
 nav_order: 1
 ---
 
-# [Eclipse] 활성화된 파일 위치 프로젝트 탐색기(Project Explorer)에서 자동 오픈  
+## [Eclipse] 활성화된 파일 위치 프로젝트 탐색기(Project Explorer)에서 자동 오픈  
 
 
 ### 1. 활성화된 파일 위치 자동 추적  
