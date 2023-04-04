@@ -23,6 +23,6 @@ nav_order: 1
 단축키: Ctrl+Shift+R  
 
 
-<img src="../img/230404_02.png">
+<img src="./img/230404_02.png">
 
 
