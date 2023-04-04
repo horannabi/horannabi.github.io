@@ -20,7 +20,9 @@ nav_order: 1
 
 
 ### 2. 소스 이름으로 검색  
+단축키: Ctrl+Shift+R  
+
 
 <img src="../img/230404_02.png">
 
-단축키: Ctrl+Shift+R  
+
