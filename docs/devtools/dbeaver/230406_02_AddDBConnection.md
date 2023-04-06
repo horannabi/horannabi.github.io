@@ -13,7 +13,7 @@ nav_order: 2
 
 
 ### 2. DB 종류 선택  
-오라클 DB를 연결할 것이므로 오라클 선택
+오라클 DB를 연결할 것이므로 오라클 선택  
 ![230406_02](https://user-images.githubusercontent.com/44853626/230266744-42ae07c6-32b1-416c-ad33-1610be840176.png)
 
 
