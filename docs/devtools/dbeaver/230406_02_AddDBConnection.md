@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 02_DB Connection 연결 (오라클)
+title: 02_DB Connection 추가 (오라클)
 parent: DBeaver
 grand_parent: Dev Tools
 nav_order: 2
@@ -24,10 +24,19 @@ nav_order: 2
 ### 3. 연결할 DB 정보 입력  
 - Host와 Port에 각각 오라클 서버 IP/Port 입력  
 - Database Server Name으로 입력할 경우  
-  Enterprise 버전은 ORCL, Express 버전은 XE, DB 생성시 별칭을 준 경우엔 별칭을 입력해준다.
-- DB 정보 입력 후 Test Connection 
+  Enterprise 버전 디폴트 값은 ORCL, Express 버전 디폴트 값은 XE이다.  
+  Service Name이 설정된 경우엔 설정된 Service Name을 입력해준다.  
+- DB 정보 입력 후 Test Connection 클릭  
+
 
 <img src="./img/230406_03.png">  
 
 
-### 4. 
+### 4. Test Connection  
+Oracle Driver가 없으면 자동으로 다운받을 수 있게 창이 뜬다.  
+Custom ojdbc를 사용할 거 아님 그대로 확인을 누르면 Connection 연결에 성공할 경우 다음과 같은 창이 뜬다.  
+확인을 누르고 완료를 누르면 DB Connection 추가 완료.![230406_01](https://user-images.githubusercontent.com/44853626/230266429-55e31fb8-7cc2-46cb-8d71-d1d0306459c8.png)
+  
+
+
+<img src="./img/230406_04.png">  
