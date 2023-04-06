@@ -6,7 +6,7 @@ grand_parent: Clean Code
 nav_order: 1
 ---
 
-# [C#] 정적 생성자 (Static Constructor)
+## [C#] 정적 생성자 (Static Constructor)
 
 
 첫 번째 인스턴스가 만들어지거나 정적 멤버가 참조되기 전에 런타임에 자동으로 호출  
