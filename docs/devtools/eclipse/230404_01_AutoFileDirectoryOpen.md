@@ -3,7 +3,7 @@ layout: default
 title: 01_활성화된 파일 위치 찾기
 parent: Eclipse
 grand_parent: Dev Tools
-nav_order: 1
+nav_order: 2
 ---
 
 ## [Eclipse] 활성화된 파일 위치 찾기
