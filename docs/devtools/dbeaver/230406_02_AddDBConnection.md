@@ -17,8 +17,8 @@ nav_order: 2
 > **2. DB 종류 선택**  
 
 오라클 DB를 연결할 것이므로 오라클 선택  
+<br/>
 ![230406_02](https://user-images.githubusercontent.com/44853626/230266744-42ae07c6-32b1-416c-ad33-1610be840176.png)
-
 <br/>
 
 > **3. 연결할 DB 정보 입력**  
@@ -29,8 +29,8 @@ nav_order: 2
   Service Name이 설정된 경우엔 설정된 Service Name을 입력해준다.  
 - DB 정보 입력 후 Test Connection 클릭  
 
+<br/>
 ![230406_03](https://user-images.githubusercontent.com/44853626/230266770-81b79d93-2032-43ca-ae59-739a3184d0bc.png)
-
 <br/>
 
 > **4. Test Connection**  
@@ -38,4 +38,6 @@ nav_order: 2
 Oracle Driver가 없으면 자동으로 다운받을 수 있게 창이 뜬다.  
 Custom ojdbc를 사용할 거 아님 그대로 확인을 누르면 Connection 연결에 성공할 경우 다음과 같은 창이 뜬다.  
 확인을 누르고 완료를 누르면 DB Connection 추가 완료.  
-![230406_04](https://user-images.githubusercontent.com/44853626/230266785-35209505-5abd-495e-992e-e14032085514.png)
+<br/>
+![230406_04](https://user-images.githubusercontent.com/44853626/230266785-35209505-5abd-495e-992e-e14032085514.png)  
+<br/>
