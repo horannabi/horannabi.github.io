@@ -22,7 +22,7 @@ nav_order: 2
 
 </div>
 <br/>
-<br/>
+
 **2) 단축키 사용**  
 <div class="code-example" markdown="1">
 
@@ -34,7 +34,7 @@ nav_order: 2
 
 </div>
 <br/>
-<br/>
+
 > **2. 소스 이름으로 검색**  
 <div class="code-example" markdown="1">
 
