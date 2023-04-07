@@ -10,7 +10,7 @@ nav_order: 2
 
 > **1. 콘센트 모양 클릭**  
 
-![230406_01](https://user-images.githubusercontent.com/44853626/230266429-55e31fb8-7cc2-46cb-8d71-d1d0306459c8.png)
+![230406_01](https://user-images.githubusercontent.com/44853626/230562352-e07efa76-05aa-4df5-98ad-10ab9b18f520.png)
 
 <br/>
 
