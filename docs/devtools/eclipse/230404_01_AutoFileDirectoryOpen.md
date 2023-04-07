@@ -17,7 +17,7 @@ nav_order: 1
 아래 버튼을 클릭하면 파일 활성화시 해당 파일이 포함된 폴더까지 자동으로 디렉토리가 확장됨  
 
 
-![230404_01](https://user-images.githubusercontent.com/44853626/230548810-78367849-1792-4166-8882-4b0afd8ae5ce.png)  
+![230404_01](https://user-images.githubusercontent.com/44853626/230548810-78367849-1792-4166-8882-4b0afd8ae5ce.png){: width="80%" height="80%"}  
 
 
 > 2) 단축키 사용  
