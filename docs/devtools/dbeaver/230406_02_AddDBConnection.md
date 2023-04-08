@@ -8,8 +8,9 @@ nav_order: 2
 
 ## [DBeaver] DB Connection 연결 (오라클)  
 
-### 1. 콘센트 모양 클릭
-<hr/>
+### 1. 콘센트 모양 클릭  
+
+<hr style="border:0; height:1px;"/>
 
 ![230406_01](https://user-images.githubusercontent.com/44853626/230562352-e07efa76-05aa-4df5-98ad-10ab9b18f520.png)
 <br/>
