@@ -21,7 +21,6 @@ nav_order: 2
 ![230404_01](https://user-images.githubusercontent.com/44853626/230548810-78367849-1792-4166-8882-4b0afd8ae5ce.png){: width="50%" height="50%"}
 
 </div>
-<br/>
 
 **2) 단축키 사용**  
 <div class="code-example" markdown="1">
