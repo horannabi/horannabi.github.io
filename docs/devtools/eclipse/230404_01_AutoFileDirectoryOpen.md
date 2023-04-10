@@ -25,7 +25,8 @@ nav_order: 2
 **2) 단축키 사용**  
 <div class="code-example" markdown="1">
 
-단축키: **ALT+Shift+W**  
+> 단축키: **ALT+Shift+W**  
+
 단축키를 누르면 1)과 같이 파일이 포함된 폴더까지 디렉토리가 확장되고  
 단축키를 누르면 아래와 같이 뜨는데 **Project Explorer**까지 누르면 <u>활성화된 파일까지 프로젝트 탐색기에 표시</u>된다.  
 
