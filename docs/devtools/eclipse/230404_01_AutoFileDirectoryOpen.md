@@ -13,8 +13,6 @@ nav_order: 2
 
 > 소스코드 파일을 열 때마다 해당 파일이 포함된 폴더를 프로젝트 탐색기에서 오픈 시켜주는 기능  
 
-<br/>
-
 **1) 자동으로 폴더 확장**  
 <div class="code-example" markdown="1">
 
@@ -34,7 +32,6 @@ nav_order: 2
 ![230404_02](https://user-images.githubusercontent.com/44853626/230549331-318380bf-62e2-430a-abf2-9c0c3e899360.png)
 
 </div>
-<br/>
 
 ### 2. 소스 이름으로 검색  
 
