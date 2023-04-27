@@ -8,7 +8,7 @@ nav_order: 2
 
 # [JS] 실행 컨텍스트 (Execution Context)  
 
-<u>'[코어 자바스크립트](https://product.kyobobook.co.kr/detail/S000001766397)-Chapter 02_실행 컨텍스트'에 대한 요약</u>  
+<u>[코어 자바스크립트](https://product.kyobobook.co.kr/detail/S000001766397)-Chapter 02_실행 컨텍스트에 대한 요약</u>  
 
 ## 1. 실행 컨텍스트란?  
 
