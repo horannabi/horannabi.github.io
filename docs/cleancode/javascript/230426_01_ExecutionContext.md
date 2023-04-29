@@ -132,9 +132,7 @@ a();
 
 따라서 출력결과는 다음과 같음   
 <div class="code-example" markdown="1">
-
 (1) 1, (2) 1, (3) 2  
 *((2)가 undefined가 아님!)*  
-
 </div>
 
