@@ -92,4 +92,46 @@ function a (x) {
 a(1)
 ```
 
+LexicalEnvironment 입장에선 인자들과 함께 함수를 호출한 경우(상단의 예시 코드)  코드 내부에서 변수를 선언한 것(하단의 예시 코드)과 같음  
+
+```js
+function a () {
+    var x = 1;                  // 수집대상 1 (매개변수 선언))
+    console.log(x);        // (1)
+    var x;                        // 수집대상 2 (변수 선언)
+    console.log(x);        // (2)
+    var x = 2;                 // 수집대상 3 (변수 선언)
+    console.log(x);        // (3)
+}
+a();
+```
+
+호이스팅 처리 결과는 다음과 같음.  
+**environmentRecord**는 현재 실행될 컨텍스트의 대상 코드 내에 <u>어떤 식별자들이 있는지</u>만 관심,  
+각 식별자에 어떤 값이 할당될 것인지는 관심 X  
+<u>따라서 변수명만 끌어올리고 할당 과정은 원래 자리에 둠.</u>  
+
+
+```js
+function a () {
+    var x;                        // 수집대상 1의 변수선언 부분
+    var x;                        // 수집대상 2의 변수선언 부분
+    var x;                        // 수집대상 3의 변수선언 부분
+
+    x = 1;                        // 수집대상 1의 할당 부분
+    console.log(x);        // (1)
+    console.log(x);        // (2)
+    x = 2;                        // 수집대상 3의 할당 부분
+    console.log(x);        // (3)
+}
+a();
+```
+
+따라서 출력결과는 다음과 같음   
+<div class="code-example" markdown="1">
+
+(1) 1, (2) 1, (3) 2  
+((2)가 undefined가 아님!)  
+
+</div>
 
