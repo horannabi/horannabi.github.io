@@ -20,6 +20,7 @@ nav_order: 2
 전체 코드의 환경과 순서를 보장  
 (같은 실행컨택스트 = 동일한 환경)  
 
+<br/>
 
 **실행 컨택스트 구성방법**  
 > 1. 전역공간  
@@ -45,6 +46,7 @@ outer();
 console.log(a);
 ```
 
+<br/>
 
 **전역 컨택스트**  
 최상단의 공간, 코드 내부에 별도의 실행 명령이 없어도 브라우저에서 자동으로 실행  
@@ -66,6 +68,7 @@ console.log(a);
 **VariableEnvironment & LexicalEnvironment**의 내부는  
 **envronmentRecord** & o**uter-EnvrionmentReference**로 구성돼 있음  
 
+<hr/>
 
 ## 2. LexicalEnvironment  
 ### 1) environmentRecord와 호이스팅  
