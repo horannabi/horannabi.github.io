@@ -82,12 +82,12 @@ console.log(a);
 
 
 ```js
-function a (x) {
-    console.log(x);
-    var x;
-    console.log(x);
-    var x = 2;
-    console.log(x);
+function a (x) {           // 수집대상 1 (매개변수)
+    console.log(x);        // (1)
+    var x;                 // 수집대상 2 (변수 선언)
+    console.log(x);        // (2)
+    var x = 2;             // 수집대상 3 (변수 선언 & 할당)
+    console.log(x);        // (3)
 }
 a(1)
 ```
@@ -96,11 +96,11 @@ LexicalEnvironment 입장에선 인자들과 함께 함수를 호출한 경우(�
 
 ```js
 function a () {
-    var x = 1;                  // 수집대상 1 (매개변수 선언))
+    var x = 1;             // 수집대상 1 (매개변수 선언)
     console.log(x);        // (1)
-    var x;                        // 수집대상 2 (변수 선언)
+    var x;                 // 수집대상 2 (변수 선언)
     console.log(x);        // (2)
-    var x = 2;                 // 수집대상 3 (변수 선언)
+    var x = 2;             // 수집대상 3 (변수 선언 & 할당)
     console.log(x);        // (3)
 }
 a();
@@ -114,14 +114,14 @@ a();
 
 ```js
 function a () {
-    var x;                        // 수집대상 1의 변수선언 부분
-    var x;                        // 수집대상 2의 변수선언 부분
-    var x;                        // 수집대상 3의 변수선언 부분
+    var x;                 // 수집대상 1의 변수선언 부분
+    var x;                 // 수집대상 2의 변수선언 부분
+    var x;                 // 수집대상 3의 변수선언 부분
 
-    x = 1;                        // 수집대상 1의 할당 부분
+    x = 1;                 // 수집대상 1의 할당 부분
     console.log(x);        // (1)
     console.log(x);        // (2)
-    x = 2;                        // 수집대상 3의 할당 부분
+    x = 2;                 // 수집대상 3의 할당 부분
     console.log(x);        // (3)
 }
 a();
@@ -131,7 +131,7 @@ a();
 <div class="code-example" markdown="1">
 
 (1) 1, (2) 1, (3) 2  
-((2)가 undefined가 아님!)  
+*((2)가 undefined가 아님!)*  
 
 </div>
 
