@@ -27,7 +27,7 @@ nav_order: 2
 > 3. 함수  
 
 - 전역공간은 자동으로 생성  
-- eval()은 문자로 표현 된 JavaScript 코드를 실행하는 함수로, 절대 사용하지 말 것을 권고 (eval() is evil)  
+- eval()은 문자로 표현 된 JavaScript 코드를 실행하는 함수로, 절대 사용하지 말 것을 권고 ([eval() is evil](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/eval))  
 - 따라서 함수 => 흔히 실행 컨택스트를 구성하는 방법
 
 
