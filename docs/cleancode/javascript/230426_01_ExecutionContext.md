@@ -70,7 +70,7 @@ console.log(a);
 <hr/>
 
 ## 2. LexicalEnvironment  
-### 1) environmentRecord와 호이스팅  
+### 1) environmentRecord와 호이스팅(Hoisting)  
 **environmentRecord**  
 - environmentRecord에는 <u>현재 컨택스트와 관련된 코드의 식별자 정보</u>들이 저장됨.  
 컨택스트를 구성하는 함수에 지정된 매개변수 식별자, 선언한 함수가 있을 경우 그 함수 자체, var로 선언된 변수의 식별자등이 식별자에 해당.  
