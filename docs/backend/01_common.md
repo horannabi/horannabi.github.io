@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Common
-parent: Clean Code
+parent: BackEnd
 nav_order: 1
 has_children: true
 ---
 
-# OOP
+# Common
