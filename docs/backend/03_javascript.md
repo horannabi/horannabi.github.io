@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Javascript
-parent: Clean Code
+parent: BackEnd
 nav_order: 3
 has_children: true
 ---
