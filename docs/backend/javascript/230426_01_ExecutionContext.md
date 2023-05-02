@@ -1,8 +1,8 @@
 ---
 layout: default
-title: 02_실행컨텍스트
-parent: Javascript
-grand_parent: BackEnd
+title: Ch2. 실행컨텍스트
+parent: 01_[책리뷰]코어 자바스크립트
+grand_parent: Javascript
 nav_order: 2
 ---
 
