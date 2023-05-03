@@ -7,4 +7,4 @@ nav_order: 1
 has_children: true
 ---
 
-# [Review] 코어 자바스크립트 (Core Javascript)
+# [책 리뷰] 코어 자바스크립트 (Core Javascript)
