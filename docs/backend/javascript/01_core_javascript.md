@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 01_[책리뷰]코어 자바스크립트
+title: 01_코어 자바스크립트
 parent: Javascript
 grand_parent: BackEnd
 nav_order: 1
