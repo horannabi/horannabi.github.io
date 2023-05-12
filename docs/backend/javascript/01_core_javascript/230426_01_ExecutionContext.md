@@ -206,6 +206,7 @@ multiply = function (a, b) {
 ```
 
 따라서 출력되는 결과는 다음과 같음  
+
 <div class="code-example" markdown="1">
 
 3  
