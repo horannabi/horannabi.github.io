@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Ch2. 실행컨텍스트
+title: Ch2. 실행컨텍스트(1)
 parent: 01_코어 자바스크립트
 grand_parent: Javascript
 nav_order: 2
 ---
 
-# [JS] 실행 컨텍스트 (Execution Context)  
+# [JS] 실행 컨텍스트 (Execution Context) (1)  
 
 '[코어 자바스크립트](https://product.kyobobook.co.kr/detail/S000001766397)-Chapter 02_실행 컨텍스트'에 대한 요약 
 
