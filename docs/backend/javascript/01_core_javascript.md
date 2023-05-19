@@ -2,7 +2,7 @@
 layout: default
 title: 01_코어 자바스크립트
 parent: Javascript
-grand_parent: BackEnd
+grand_parent: Programming Languages
 nav_order: 1
 has_children: true
 ---
