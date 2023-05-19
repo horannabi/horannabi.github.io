@@ -2,7 +2,7 @@
 layout: default
 title: 01_정적생성자
 parent: C#
-grand_parent: BackEnd
+grand_parent: Programming Languages
 nav_order: 1
 ---
 
