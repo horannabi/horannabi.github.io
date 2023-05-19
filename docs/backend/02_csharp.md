@@ -1,7 +1,7 @@
 ---
 layout: default
 title: C#
-parent: BackEnd
+parent: Programming Languages
 nav_order: 2
 has_children: true
 ---
