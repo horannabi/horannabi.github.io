@@ -3,7 +3,7 @@ layout: default
 title: 01_그래프
 parent: Algorithm
 nav_order: 1
-has_children: true
+has_children: false
 ---
 
 # 그래프
