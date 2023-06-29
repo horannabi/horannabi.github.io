@@ -28,5 +28,5 @@ has_children: false
 
 ## 2. 인접행렬과 인접리스트  
 그래프를 표현하기 위한 방식  
-1. 인접 행렬(Adjecency matrix): 2차원 배열을 활용하여 그래프를 표현하는 방식  
-2. 인접 리스트(Adjacent list): 연결 리스트를 활용하여 표현하는 방식  
+1. 인접 행렬(Adjecency matrix): 2차원 배열을 활용  
+2. 인접 리스트(Adjacent list): 연결 리스트를 활용  
