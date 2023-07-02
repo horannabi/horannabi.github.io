@@ -31,4 +31,4 @@ has_children: false
 1. 인접 행렬(Adjecency matrix): 2차원 배열을 활용  
 2. 인접 리스트(Adjacent list): 연결 리스트를 활용
 
-비교  
+### 1) 인접 행렬 vs 인접 리스트  
