@@ -74,6 +74,7 @@ has_children: false
 - 공통: 완전 탐색  
 - BFS: 최단거리 구하기
 
+<br/>
 
 ### 2) 구현 방법  
 - DFS: 스택 or 재귀함수  
