@@ -54,6 +54,15 @@ has_children: false
 ``` c++
 int a[10][10];    // N * N의 이차원 배열 선언 (N = 노드의 갯수)
 
+int main() {
+  int n;
+  scanf ("%d", &n);
+  for (int i=0; i<n; i++) {
+    int u, v, w;
+    scanf("%d %d %d", &u, &v, &w);
+    a[u][v] = a[v][u] = w;
+  }
+}
 ```
 
 **[인접 리스트]**  
