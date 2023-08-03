@@ -91,6 +91,7 @@ int main() {
   }
 }
 ```
+
 **ii) Weight가 있을 때**
 ``` c++
 vector<pair<int,int>> a[10];
