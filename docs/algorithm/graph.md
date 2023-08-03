@@ -60,7 +60,7 @@ int main() {
   for (int i=0; i<n; i++) {
     int u, v, w;
     scanf("%d %d %d", &u, &v, &w);
-    a[u][v] = a[v][u] = w;
+    a[u][v] = a[v][u] = w;          // w(weight)가 없을 경우 1 대입
   }
 }
 ```
@@ -77,8 +77,32 @@ int main() {
 >   
 > 단점: 두 노드가 연결되어 있는지 확인이 인접 행렬보다 느림
 
-``` c++
 
+**i) Weight가 없을 때**
+``` c++
+vector<int> a[10];
+int main() {
+  int n;
+  scanf ("%d", &n);
+  for (int i=0; i<n; i++) {
+    int u, v;
+    scanf("%d %d", &u, &v);
+    a[u].push_back(v); a[v].push_back(u);
+  }
+}
+```
+**ii) Weight가 있을 때**
+``` c++
+vector<pair<int,int>> a[10];
+int main() {
+  int n;
+  scanf ("%d", &n);
+  for (int i=0; i<n; i++) {
+    int u, v, w;
+    scanf("%d %d %d", &u, &v, &w);
+    a[u].push_back(make_pair(v,w)); a[v].push_back(make_pair(u,w));
+  }
+}
 ```
 
 <hr/>
