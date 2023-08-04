@@ -92,6 +92,7 @@ int main() {
   }
 }
 ```
+<br/>
 
 **ii) Weight가 있을 때**
 ``` c++
