@@ -41,6 +41,8 @@ has_children: false
 > 
 > **2. 인접 리스트(Adjacent list):** 연결 리스트를 활용
 
+<br/>
+
 ### 1) 인접 행렬 vs 인접 리스트  
 
 **[인접 행렬]**  
