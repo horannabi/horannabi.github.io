@@ -33,6 +33,7 @@ has_children: false
 <hr/>
 
 ## 2. 인접행렬과 인접리스트  
+
 그래프를 표현하기 위한 방식  
 
 > **1. 인접 행렬(Adjecency matrix):** 2차원 배열을 활용
