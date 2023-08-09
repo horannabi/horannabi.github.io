@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 01_그래프
+title: 01_그래프(1)
 parent: Algorithm
 nav_order: 1
 has_children: false
