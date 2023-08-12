@@ -17,7 +17,7 @@ has_children: false
 
 ### 2) DFS vs BFS 사용 구분  
 - 공통: 완전 탐색  
-- BFS: 최단거리 구하기
+- BFS: 최단거리 구하기  
 
 <br/>
 
