@@ -27,6 +27,18 @@ has_children: false
 <hr/>
 
 ## 2. 깊이 우선 탐색 (DFS)  
+재귀 호출로 구현
+```c++
+void dfs(int x) {
+  check[x] = true;
+  printf("%d", x);
+  for (int i=1; i<=n; i++) {
+    if (a[x][i] == 1 && check[i] == false) {
+      dfs(i);
+    }
+  }
+}
+```
 
 <hr/>
 
