@@ -28,6 +28,9 @@ has_children: false
 
 ## 2. 깊이 우선 탐색 (DFS)  
 재귀 호출로 구현
+
+### 1) 인접행렬 사용  
+
 ```c++
 void dfs(int x) {
   check[x] = true;
@@ -35,6 +38,21 @@ void dfs(int x) {
   for (int i=1; i<=n; i++) {
     if (a[x][i] == 1 && check[i] == false) {
       dfs(i);
+    }
+  }
+}
+```
+
+### 2) 인접리스트 사용
+
+```c++
+void dfs(int x) {
+  check[x] = true;
+  printf("%d", x);
+  for (int i=1; i<a[x].size(); i++) {
+    int y = a[x][i];
+    if (check[y] == false) {
+      dfs(y);
     }
   }
 }
