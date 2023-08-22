@@ -61,6 +61,38 @@ void dfs(int x) {
 <hr/>
 
 ## 3. 너비 우선 탐색 (BFS)  
+큐로 구현
 
+### 1) 인접행렬 사용  
 
+```c++
+queue<int> q;
+check[1] = true; q.push(1);
+while (!q.empty()) {
+  int x = q.front(); q.pop();
+  printf("%d ", x);
+  for (int i=1; i<=n; i++) {
+    if (a[x][i] == 1 && check[i] == false) {
+      check[i] = true;
+      q.push(i);
+    }
+  }
+}
+```
 
+### 2) 인접리스트 사용
+
+```c++
+queue<int> q;
+check[1] = true; q.push(1);
+while (!q.empty()) {
+  int x = q.front(); q.pop();
+  printf("%d ", x);
+  for (int i=1; i<a[x].size(); i++) {
+    int y = a[x][i];
+    if (check[y] == false) {
+      check[y] = true; q.push(y);
+    }
+  }
+}
+```
