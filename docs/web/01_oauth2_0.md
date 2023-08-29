@@ -31,3 +31,12 @@ has_children: false
 |Client|보호된 자원을 사용하려고 접근 요청을 하는 애플리케이션|
 |Resource Server|사용자의 보호된 자원을 호스팅하는 서버|
 |Authorization Server|권한 서버. 인증/인가를 수행하는 서버로 클라이언트의 접근 자격을 확인하고 Access Token을 발급하여 권한을 부여하는 역할을 수행|
+
+
+### 4) OAuth 주요 개념
+|구분|설명|
+|----|------------|
+|Authentication|인증, 접근 자격이 있는지 검증하는 단계|
+|Authorization|인가, 자원에 접근할 권한을 부여하는 것. 인가가 완료되면 리소스 접근 권한이 담긴 Access Token이 클라이언트에게 부여됨|
+|Access Token|리소스 서버에게서 리소스 소유자의 보호된 자원을 획득할 때 사용되는 만료 기간이 있는 Token|
+|Refresh Token|Access Token 만료시 이를 갱신하기 위한 용도로 사용하는 Token. Refresh Token은 일반적으로 Access Token보다 만료 기간이 김.|
