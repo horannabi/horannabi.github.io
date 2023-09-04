@@ -50,5 +50,6 @@ has_children: false
 |구분|설명|
 |----|------------|
 |1. Authorization Code Grant <br/> (권한 부여 승인 코드 방식)|- **권한 부여 승인을 위해 자체 생성한 Authorization Code를 전달** <br/>- 많이 쓰이고 기본이 되는 방식 <br/>- 클라이언트가 사용자를 대신하여 특정 자원에 접근을 요청할 때 사용. 보통 타사의 클라이언트에게 보호된 자원을 제공하기 위한 인증에 사용 => <u>간편 로그인 기능</u>에서 사용 <br/>- Refresh Token 사용 가능|
-|2. Implicit Grant <br/> (암묵적 승인 방식)|- **권한 부여 승인 코드 없이 바로 Access Token 발급** <br/>  => 만료기간을 짧게 설정하여 누출의 위험을 줄일 필요가 있음 <br/>- 자격증명을 안전하게 저장하기 힘든 클라이언트(예 - JavaScript등 스크립트 언어를 사용한 브라우저)에게 최적화된 방식 <br/>- 권한 서버는 client_secret를 사용해 클라이언트를 인증하지 않음. Access Token을 획득하기 위한 절차가 간소화되기에 응답성과 효율성은 높아지지만 Access Token이 URL로 전달된다는 단점이 있음. <br/>- Refresh Token 사용 불가능
+|2. Implicit Grant <br/> (암묵적 승인 방식)|- **권한 부여 승인 코드 없이 바로 Access Token 발급** <br/>=> 만료기간을 짧게 설정하여 누출의 위험을 줄일 필요가 있음 <br/>- 자격증명을 안전하게 저장하기 힘든 클라이언트(예 - JavaScript등 스크립트 언어를 사용한 브라우저)에게 최적화된 방식 <br/>- 권한 서버는 client_secret를 사용해 클라이언트를 인증하지 않음. Access Token을 획득하기 위한 절차가 간소화되기에 응답성과 효율성은 높아지지만 Access Token이 URL로 전달된다는 단점이 있음. <br/>- Refresh Token 사용 불가능|
+|3. Resource Owner Password Credentials Grant <br/> (자원 소유자 자격증명 승인 방식)|- **username, password로 Access Token을 받는 방식** <br/>- 권한 서버, 리소스 서버, 클라이언트가 모두 같은 시스템에 속해 있을 때 사용되어야 하는 방식. <br/>=> 자신의 서비스에서 제공하는 어플리케이션일 경우에만 사용되는 인증 방식. 다른 회사의 외부 프로그램의 경우 적용하면 안 됨. <br/>- Refresh Token 사용 가능|
 
