@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 02_JWS
+title: 02_JWT
 parent: 01_Authorization
 grand_parent: Web
 nav_order: 2
 has_children: false
 ---
 
-# JWS  
+# JWT  
 
-## 1. JWS란?  
+## 1. JWT란?  
