@@ -9,4 +9,4 @@ has_children: false
 
 # JWT  
 
-## 1. JWT란?  
+## 1. JWT(Json Web Token)란?  
