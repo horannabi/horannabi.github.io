@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 01_Oauth 2.0
-parent: 01_Authentication
+parent: 01_Authorization
 grand_parent: Web
 nav_order: 1
 has_children: false
