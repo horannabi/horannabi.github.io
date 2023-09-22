@@ -7,6 +7,6 @@ nav_order: 2
 has_children: false
 ---
 
-# JWT  
+# JWT (JSON Web Token)  
 
-## 1. JWT(Json Web Token)란?  
+## 1. JWT(JSON Web Token)란?  
