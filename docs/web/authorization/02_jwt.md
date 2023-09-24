@@ -10,3 +10,4 @@ has_children: false
 # JWT (JSON Web Token)  
 
 ## 1. JWT(JSON Web Token)란?  
+: Json 객체를 사용해서 토큰 자체에 정보들을 저장하고 있는 Web Token  
