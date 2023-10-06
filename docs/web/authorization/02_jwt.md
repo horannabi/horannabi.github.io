@@ -30,7 +30,8 @@ has_children: false
 **3. 인증정보를 다른 어플리케이션으로 전달**  
 
 **4. 보안**  
-   
+
+<hr/>
 
 ## 2. JWT(JSON Web Token)란?  
 - 웹에서 사용되는 <u>JSON 형식의 토큰에 대한 표준 규격</u>  
