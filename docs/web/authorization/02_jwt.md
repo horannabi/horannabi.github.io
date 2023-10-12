@@ -58,7 +58,11 @@ has_children: false
 
 ### 1) JWT의 구조
 
-하나의 JWT 토큰은 헤더(header)와 페이로드(payload), 서명(signature) 세 부분으로 이루어지며 각 부분은 . 기호로 구분됨.
+하나의 JWT 토큰은 헤더(header), 페이로드(payload), 서명(signature) 세 부분으로 이루어지며 각 부분은 . 기호로 구분됨.
 ```
 <헤더>.<페이로드>.<서명>
 ```
+
+- **헤더(header):** 토큰의 유형과 서명 알고리즘
+- **페이로드(payload):** claim이라고도 불리는 사용자의 인증/인가 정보
+- **서명(signature):** 헤더와 페이로드가 비밀키로 서명되어 저장
