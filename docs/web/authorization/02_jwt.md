@@ -76,7 +76,7 @@ JWT는 JSON 데이터를 Base64 URL-safe Encode함.
 ```
 
 **페이로드(payload)**  
-: <u>claim</u>이라고도 불리는 사용자의 인증/인가 정보  
+: <u>claim</u>이라고도 불리는 사용자의 인증/인가 정보. <u>시스템에서 실제로 사용될 정에 대한 내용</u>  
 
 
 **서명(signature)**  
