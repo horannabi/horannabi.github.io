@@ -67,6 +67,7 @@ JWT는 JSON 데이터를 Base64 URL-safe Encode함.
 
 **헤더(header)** 
 : <u>서명 암호화 알고리즘(해시 암호화 알고리즘)</u>과 <u>토큰의 유형</u>으로 구성
+
 ```js
 {
   "alg": "HS256",   // 서명 암호화 알고기즘 (eg. HMAC SHA256. RSA)
