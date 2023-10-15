@@ -65,6 +65,7 @@ JWT는 JSON 데이터를 Base64 URL-safe Encode함.
 <헤더>.<페이로드>.<서명>
 ```
 
+
 **헤더(header)**  
 : <u>서명 암호화 알고리즘(해시 암호화 알고리즘)</u>과 <u>토큰의 유형</u>으로 구성  
 
@@ -75,8 +76,10 @@ JWT는 JSON 데이터를 Base64 URL-safe Encode함.
 }
 ```
 
+
 **페이로드(payload)**  
 : <u>claim</u>이라고도 불리는 사용자의 인증/인가 정보. <u>시스템에서 실제로 사용될 정에 대한 내용</u>  
+
 
 
 **서명(signature)**  
