@@ -66,7 +66,7 @@ JWT는 JSON 데이터를 Base64 URL-safe Encode함.
 ```
 
 
-**헤더(header)**  
+**(1) 헤더(header)**  
 <u>서명 암호화 알고리즘(해시 암호화 알고리즘)</u>과 <u>토큰의 유형</u>으로 구성  
 
 ```js
@@ -77,7 +77,7 @@ JWT는 JSON 데이터를 Base64 URL-safe Encode함.
 ```
 
 
-**페이로드(payload)**  
+**(2) 페이로드(payload)**  
 <u>claim</u>이라고도 불리는 사용자의 인증/인가 정보. <u>시스템에서 실제로 사용될 정에 대한 내용</u>  
 정해진 형식은 없지만, 대표적으로 Registered claims, Public claims, Private claims 이렇게 세 가지로 나뉨  
 - Registed claims : 미리 정의된 클레임.
@@ -89,5 +89,5 @@ JWT는 JSON 데이터를 Base64 URL-safe Encode함.
 - Public claims : 사용자가 정의할 수 있는 클레임. 공개용 정보 전달을 위해 사용.
 - Private claims : 해당하는 당사자들 간에 정보를 공유하기 위해 만들어진 사용자 지정 클레임. 외부에 공개되도 상관없지만 해당 유저를 특정할 수 있는 정보들을 담음.
 
-**서명(signature)**  
+**(3) 서명(signature)**  
 헤더와 페이로드가 <u>비밀키(secret key)</u>로 서명되어 저장  
