@@ -89,10 +89,10 @@ JWT는 JSON 데이터를 Base64 URL-safe Encode함.
   <u>claim</u>이라고도 불리는 사용자의 인증/인가 정보. <u>시스템에서 실제로 사용될 정에 대한 내용</u>  
   정해진 형식은 없지만, 대표적으로 Registered claims, Public claims, Private claims 이렇게 세 가지로 나뉨  
   - Registed claims : 미리 정의된 클레임.
-    - iss (issuer; 발행자)
-    - exp (expireation time; 만료 시간)
-    - sub (subject; 제목)
-    - iat (issued At; 발행 시간)
+    - iss (issuer: 발행자)
+    - exp (expireation time: 만료 시간)
+    - sub (subject: 제목)
+    - iat (issued At: 발행 시간)
     - jti (JWI ID)
   - Public claims : 사용자가 정의할 수 있는 클레임. 공개용 정보 전달을 위해 사용.
   - Private claims : 해당하는 당사자들 간에 정보를 공유하기 위해 만들어진 사용자 지정 클레임. 외부에 공개되도 상관없지만 해당 유저를 특정할 수 있는 정보들을 담음.
