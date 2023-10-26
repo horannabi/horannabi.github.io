@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Web
+title: Network
 nav_order: 3
 has_children: true
 ---
 
-# Web
+# Network
