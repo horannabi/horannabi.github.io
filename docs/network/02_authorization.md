@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 02_Authorization
-parent: Web
+parent: Network
 nav_order: 2
 has_children: true
 nav_exclude: false
