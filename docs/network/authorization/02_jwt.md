@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 02_JWT
-parent: 01_Authorization
+parent: 02_Authorization
 grand_parent: Network
 nav_order: 2
 has_children: false
