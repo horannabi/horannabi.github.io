@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 01_Oauth 2.0
-parent: 01_Authorization
+parent: 02_Authorization
 grand_parent: Network
 nav_order: 1
 has_children: false
