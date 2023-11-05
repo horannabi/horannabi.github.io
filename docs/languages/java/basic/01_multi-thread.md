@@ -16,7 +16,7 @@ nav_order: 1
 
 
 ## 2. Callable과 Future
-Java5부터 추가됨  
+위의 한계점을 보완하기 위해 Java5부터 추가됨  
 
 
 **1) Callable**  
