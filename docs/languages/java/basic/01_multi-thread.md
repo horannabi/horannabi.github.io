@@ -30,4 +30,6 @@ nav_order: 1
 
 
 ## 3. 쓰레드 풀 (Thread-pool)  
-Executors, Executor, ExecutorService 
+Executors, Executor, ExecutorService  
+쓰레드 풀을 위한 Executor, ExecutorService, ScheduledExecutorService  
+쓰레드 풀 생성을 도와주는 팩토리 클래스인 Executor  
