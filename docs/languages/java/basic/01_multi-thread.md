@@ -23,6 +23,13 @@ nav_order: 1
 - 기존의 Runnable 인터페이스는 결과를 반환할 수 없음. (결과값을 얻으려면 공용 메모리나 파이프 등을 사용, 번거로움)  
 - Runnable의 발전된 형태로 <u>제네릭을 사용해 결과를 받을 수 있는</u> Callable 인터페이스가 추가됨.  
 
+**Interface Callable<V>**  
+
+```java
+@FunctionalInterface
+public interface Callable<V>
+```
+
 
 **2) Future**  
 - Callable 인터페이스의 구현체인 작업(Task)은 가용 가능한 쓰레드가 없어서 실행이 미뤄지거나, 작업 시간이 오래 걸려 실행 결과를 바로 받지 못할 수 있음.   
