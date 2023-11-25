@@ -35,6 +35,16 @@ public interface Callable<V> {
 - Callable 인터페이스의 구현체인 작업(Task)은 가용 가능한 쓰레드가 없어서 실행이 미뤄지거나, 작업 시간이 오래 걸려 실행 결과를 바로 받지 못할 수 있음.   
 - <u>미래에 완료된 Callable의 결과값을 반환</u>받기 위해 Future 인터페이스가 추가됨.   
 
+```java
+public interface Future<V> {
+    V get() throws InterruptedException, ExecutionException;
+    V get(long timeout, TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException;
+    boolean isCancelled();
+    boolean isDone();
+    boolean cancel(boolean mayInterruptIfRunning)
+}
+```
+
 
 ## 3. 쓰레드 풀 (Thread-pool)  
 Executors, Executor, ExecutorService  
