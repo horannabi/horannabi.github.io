@@ -8,7 +8,7 @@ nav_order: 1
 
 # 자바에서 Multi-thread
 
-## 1. Thread와 Runnabl의 한계점  
+## 1. Thread와 Runnable의 한계점  
 - 쓰레드의 생성과 실행을 저수준의 API에 의존
 - 쓰레드 작업이 끝난 후 결과값 반환이 불가
 - 매번 쓰레드 생성과 종료 시 오버헤드 발생
@@ -16,7 +16,7 @@ nav_order: 1
 
 
 ## 2. Callable과 Future  
-위의 한계점을 보완하기 위해 Java5부터 추가됨  
+위의 Thread와 Runnable의 한계점을 보완하기 위해 Java5부터 추가됨  
 
 
 **1) Callable**  
