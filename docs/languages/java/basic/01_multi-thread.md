@@ -6,7 +6,7 @@ grand_parent: Java
 nav_order: 1
 ---
 
-# 자바에서 Multi-thread
+# Multi-thread 관련 인터페이스
 
 ## 1. Thread와 Runnable의 한계점  
 - 쓰레드의 생성과 실행을 저수준의 API에 의존
