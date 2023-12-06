@@ -14,6 +14,7 @@ nav_order: 1
 - 매번 쓰레드 생성과 종료 시 오버헤드 발생
 - 쓰레드들의 관리가 어려움   
 
+
 ## 2. Callable과 Future  
 위의 Thread와 Runnable의 한계점을 보완하기 위해 Java5부터 추가됨  
 
