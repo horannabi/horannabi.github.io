@@ -24,7 +24,6 @@ nav_order: 1
 - Runnable의 발전된 형태로 <u>제네릭을 사용해 결과를 받을 수 있는</u> Callable 인터페이스가 추가됨.  
 
 ```java
-@FunctionalInterface
 public interface Callable<V> {
   V call() throws Exception;
 }
