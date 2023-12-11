@@ -50,6 +50,13 @@ public interface Future<V> {
 
 <br/>
 
+**(1) V get() throws InterruptedException, ExecutionException**  
+작업된 결과를 가지고 오는 메서드. 결과가 반환되기 전까지 애플리케이션의 진행을 'block' (결과가 나올 때 까지 기다림)  
+
+
+**(2) V get(long timeout, TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException**  
+get() 메서드를 호출한 Thread는 작업 결과가 반환되지 않으면 무한히 대기.  
+따라서 이 메드로 Timeout 시간을 설정, 설정된 시간 내에 응답이 없으면 'TimeoutException' 예외를 발생 (try-catch로 처리)  
 
 ## 3. 쓰레드 풀 (Thread-pool)  
 Executors, Executor, ExecutorService  
